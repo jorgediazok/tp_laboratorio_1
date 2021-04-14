@@ -12,51 +12,51 @@
 
 //Funciones
 
-void sumar(int numA, int numB)
+void sumar(int A, int B)
 {
-	int resultado;
-	resultado = numA + numB;
-	printf("\nEl resultado de la suma es: %d \n", resultado);
+	int r;
+	r = A + B;
+	printf("\nEl resultado de la suma es: %d \n", r);
 }
 
-void restar(int numA, int numB)
+void restar(int A, int B)
 {
-	int resultado;
-	resultado = numA - numB;
-	printf("\nEl resultado de la resta es: %d \n", resultado);
+	int r;
+	r = A - B;
+	printf("\nEl resultado de la resta es: %d \n", r);
 }
 
-void multiplicar(int numA, int numB)
+void multiplicar(int A, int B)
 {
-	int resultado;
-	resultado = numA * numB;
-	printf("\nEl resultado de la multiplicación es: %d \n", resultado);
+	int r;
+	r = A * B;
+	printf("\nEl resultado de la multiplicación es: %d \n", r);
 }
 
-void dividir(int numA, int numB)
+void dividir(int A, int B)
 {
-	float resultado;
+	float r;
 
-	if(numB == 0){
+	if(B == 0){
 		printf("\nNo es posible dividir por 0 \n");
 	}else{
-		resultado = (float) numA / numB;
-		printf("\nEl resultado de la división es: %.2f \n", resultado);
+		r = (float) A / B;
+		printf("\nEl resultado de la división es: %.2f \n", r);
 	}
 }
 
-void factorial(int numA, int numB)
+void factorial(int A, int B)
 {
 	int i;
 	int factorialA = 1;
 	int factorialB = 1;
 
-	for(i=1; i<=numA; i++)
+	for(i=1; i<=A; i++)
 	{
 		factorialA *= i;
 	}
 
-	for(i=1; i<=numB; i++)
+	for(i=1; i<=B; i++)
 	{
 		factorialB *= i;
 	}

@@ -1,8 +1,8 @@
 /*
  ============================================================================
  Name        : TP1.c
- Author      : 
- Version     :
+ Author      : Jorge Díaz
+ Version     : Versión Final
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
  ============================================================================
@@ -33,35 +33,35 @@ int main(void) {
 		scanf("%d", &operador);
 
 		//Pido los valores
-		int numA;
-		int numB;
+		int x;
+		int y;
 
 		printf("\nElija un valor para el número 1: ");
-		scanf("%d", &numA);
+		scanf("%d", &x);
 
 		printf("\nElija un valor para el número 2: ");
-		scanf("%d", &numB);
+		scanf("%d", &y);
 
 		switch(operador)
 		{
 		case 1:
-		sumar(numA, numB);
+		sumar(x, y);
 		break;
 
 		case 2:
-		restar(numA, numB);
+		restar(x, y);
 		break;
 
 		case 3:
-		multiplicar(numA, numB);
+		multiplicar(x, y);
 		break;
 
 		case 4:
-		dividir(numA, numB);
+		dividir(x, y);
 		break;
 
 		case 5:
-		factorial(numA, numB);
+		factorial(x, y);
 		break;
 
 		case 6:

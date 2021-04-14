@@ -8,11 +8,13 @@
 #ifndef UTN_H_
 #define UTN_H_
 
-void sumar(int numA, int numB);
-void restar(int numA, int numB);
-void multiplicar(int numA, int numB);
-void dividir(int numA, int numB);
-void factorial(int numA, int numB);
+//Prototipos
+
+void sumar(int A, int B);
+void restar(int A, int B);
+void multiplicar(int A, int B);
+void dividir(int A, int B);
+void factorial(int A, int B);
 
 
 #endif /* UTN_H_ */
